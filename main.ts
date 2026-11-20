@@ -4,6 +4,6 @@ basic.forever(function () {
     if (getal < 12) {
         getal += 3
     } else {
-        basic.clearScreen()
+        getal = 0
     }
 })
